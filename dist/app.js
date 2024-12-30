@@ -42,3 +42,5 @@ app.use("/api/v1", router_1.default);
 //     next();
 // });
 exports.default = app;
+
+// Server js
