@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from 'cloudinary';
 import { Request, Response, Router } from 'express';
 import multer from 'multer';
-
+// Upload Controller js
 const router = Router()
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
