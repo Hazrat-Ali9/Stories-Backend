@@ -1,6 +1,6 @@
 import { Router } from "express";
 import usersController from "./users.controller";
-
+// user route
 const router = Router()
 
 // create 
