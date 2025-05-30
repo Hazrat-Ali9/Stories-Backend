@@ -1,5 +1,5 @@
 import User, { Subscribe } from "./users.model"
-
+// user service
 const create = async (data: any) => {
     try {
         const isExist = await User.findOne({ email: data.email })
