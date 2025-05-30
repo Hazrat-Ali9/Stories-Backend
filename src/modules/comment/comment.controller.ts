@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import commentService from "./comment.service"
-
+// comment controller
 const createNew = async (req: Request, res: Response) => {
     try {
         const data = req.body
