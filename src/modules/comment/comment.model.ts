@@ -1,5 +1,5 @@
 import { model, Schema } from "mongoose";
-
+// comment models 
 const schema = new Schema({
     comment: {
         type: String,
