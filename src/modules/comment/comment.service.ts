@@ -1,5 +1,5 @@
 import Comment from "./comment.model"
-
+// Common Route 
 const createNew = async (data: any) => {
     try {
         const newdata = await new Comment(data)
